@@ -13,7 +13,7 @@ export default function Home() {
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
-
+        <Taskinput></Taskinput>
         {/* task */}
         <Task title="Read a book"></Task>
         <Task title="Take a shower"></Task>
@@ -24,13 +24,12 @@ export default function Home() {
       </div>
 
       {/* //footer section */}
-      <div>
-        <Footer
-          year="2023"
-          fullName="Watunyoo Phanapaisarnsakul"
-          studentId="650610804"
-        ></Footer>
-      </div>
+
+      <Footer
+        year="2023"
+        fullName="Watunyoo Phanapaisarnsakul"
+        studentId="650610804"
+      ></Footer>
     </div>
   );
 }
